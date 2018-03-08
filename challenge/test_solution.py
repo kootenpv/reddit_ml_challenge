@@ -1,10 +1,12 @@
+import os
 import sys
-import reproducible_seed
+import glob
 
-with open("solution_test.txt") as f:
-    solution_module = f.read().strip()
+list_of_files = glob.glob('solutions/**/')
 
-sys.path = [solution_module] + ["."] + sys.path
+latest_sol_module = max(list_of_files, key=os.path.getctime)
+
+sys.path = [os.path.dirname(latest_sol_module)] + ["."] + sys.path
 
 
 def test_sol():
