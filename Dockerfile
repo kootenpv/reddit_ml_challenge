@@ -11,5 +11,6 @@ WORKDIR challenge
 
 COPY challenge/data data/
 COPY challenge/*.py ./
+COPY challenge/solutions solutions/
 
 ENTRYPOINT pytest -s test_solution.py
