@@ -12,11 +12,4 @@ WORKDIR challenge
 COPY challenge/data data/
 COPY challenge/*.py ./
 
-#### user stuff
-COPY challenge/solutions solutions/
-
-# setup complete. find the latest sol.py
-RUN ls -1rtd solutions/** | tail -n 1 > solution_test.txt
-
 ENTRYPOINT pytest -s test_solution.py
-RUN mkdir Thu_Mar__8_22:34:14_CET_2018

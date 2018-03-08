@@ -7,6 +7,8 @@ services:
 
 before_install:
   - echo "RUN mkdir $(date | sed 's/ /_/g')" >> Dockerfile
+  - echo "COPY challenge/solutions solutions/" >> Dockerfile
+  - echo "RUN ls -1rtd solutions/** | tail -n 1 > solution_test.txt" >> Dockerfile
   - docker build -t reddit_ml_challenge .
 
 
