@@ -1,0 +1,7 @@
+pytest
+numpy
+pandas
+sklearn
+just
+keras
+tensorflow
