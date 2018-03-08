@@ -8,6 +8,7 @@ Deadline: 1st of July 2018
 
 ### Description
 
+
 The task is to learn to automatically assign one of the tags (Research, Project, News, Discussion) to each title of [/r/MachineLearning](https://reddit.com/r/MachineLearning).
 
 The data has been gathered from this [public BigQuery dataset](https://bigquery.cloud.google.com/dataset/fh-bigquery:reddit_posts).
