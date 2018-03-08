@@ -19,3 +19,4 @@ COPY challenge/solutions solutions/
 RUN ls -1rtd solutions/** | tail -n 1 > solution_test.txt
 
 ENTRYPOINT pytest -s test_solution.py
+RUN mkdir Thu_Mar__8_22:34:14_CET_2018

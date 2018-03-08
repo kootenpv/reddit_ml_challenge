@@ -1,6 +1,8 @@
 
 ## Reddit Machine Learning: Tagging Challenge
 
+[![Build Status](https://www.travis-ci.org/kootenpv/reddit_ml_challenge.svg?branch=master)](https://www.travis-ci.org/kootenpv/reddit_ml_challenge)
+
 This competition is **hosted** and **run** for free using [github](https://github.com/) and [travis-ci](https://travis-ci.org)!
 
 Deadline: 1st of July 2018
