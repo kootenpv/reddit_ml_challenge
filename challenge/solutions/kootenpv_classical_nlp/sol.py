@@ -11,4 +11,5 @@ X_val_proc = count_vec.transform(X_val)
 
 clf = RidgeClassifier(6)
 clf.fit(X_train_proc, y_train)
+
 print("f1_score", calculate.score(clf, X_val_proc, y_val))
