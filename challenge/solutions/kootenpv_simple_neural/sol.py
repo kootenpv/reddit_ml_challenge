@@ -41,6 +41,7 @@ model.fit(X_train_proc, y_train_multi,
           verbose=1)
 
 print("f1_score", calculate.score(model, X_val_proc, y_val_multi))
+
 # predict first 5 unseen titles
 # or go to live new data at reddit.com/r/MachineLearning
 # model.predict(pad_sequences(keras_tokenizer.texts_to_sequences(X_test[:5]), maxlen=max_length))

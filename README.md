@@ -1,3 +1,4 @@
+
 ## Reddit Machine Learning: Tagging Challenge
 
 This competition is **hosted** and **run** for free using [github](https://github.com/) and [travis-ci](https://travis-ci.org)!
@@ -8,10 +9,14 @@ Deadline: 1st of July 2018
 
 ### Description
 
-
 The task is to learn to automatically assign one of the tags (Research, Project, News, Discussion) to each title of [/r/MachineLearning](https://reddit.com/r/MachineLearning).
 
 The data has been gathered from this [public BigQuery dataset](https://bigquery.cloud.google.com/dataset/fh-bigquery:reddit_posts).
+
+<p align="center">
+  <img src="./resources/screenshot1.png" />
+</p>
+
 
 It is useful to learn a classifier for 2 reasons:
 
@@ -27,7 +32,7 @@ The top 3 is listed on this repo at the end of the deadline:
 
 | **#**  | **Name**  |  **Score** |
 |----|---|---|
-| 1  | kootenpv\_classical\_nlp  | 0.6284  |
+| 1  | [kootenpv\_classical\_nlp](https://www.travis-ci.org/kootenpv/reddit_ml_challenge/jobs/351012680)  | 0.6284  |
 | 2  | kootenpv\_simple\_neural  | 0.5935  |
 | 3  | -  | - |
 
