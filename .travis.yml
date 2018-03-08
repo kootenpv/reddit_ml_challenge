@@ -9,8 +9,6 @@ services:
   - docker
 
 before_install:
-  - echo "RUN mkdir $(date | sed 's/ /_/g')" >> Dockerfile
-  - echo "COPY challenge/solutions solutions/" >> Dockerfile
   - docker build -t reddit_ml_challenge .
 
 
