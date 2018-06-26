@@ -34,7 +34,7 @@ The top 3 is listed on this repo at the end of the deadline:
 
 | **#**  | **Name**  |  **Score** |
 |----|---|---|
-| 1  | [pwiercinski\ simple\_tfidf](https://travis-ci.org/kootenpv/reddit_ml_challenge/builds/396868638 )| 0.64036 |
+| 1  | [pwiercinski\_simple\_tfidf](https://travis-ci.org/kootenpv/reddit_ml_challenge/builds/396868638 )| 0.64036 |
 | 2  | [kootenpv\_classical\_nlp](https://www.travis-ci.org/kootenpv/reddit_ml_challenge/jobs/351012680)  | 0.6284  |
 | 3  | [kootenpv\_simple\_neural](https://www.travis-ci.org/kootenpv/reddit_ml_challenge/builds/351095084)  | 0.5629  |
 | 4  | -  | - |
