@@ -2,7 +2,7 @@
 
 | **#**  | **Name**  |  **Score** |
 |----|---|---|
-| 1  | pwiercinski_simple_tfidf  | - |
+| 1  | pwiercinski_simple_tfidf  | 0.6404  |
 | 2  | kootenpv\_classical\_nlp  | 0.6284  |
 | 3  | kootenpv\_simple\_neural  | 0.5935  |
 
